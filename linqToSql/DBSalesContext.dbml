@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SalesSystem" Class="DBSalesContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=SalesSystem;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="linqToSql.Properties.Settings" SettingsPropertyName="SalesSystemConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="Pro_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Pro_Name" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="Qty" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Gomla_Price" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Sale_Price" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Barcode" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="MinQty" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="MaxDiscount" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Group_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Main_UnitName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Main_UnitID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sale_UnitName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Sale_UnitID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Buy_UnitName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Buy_UnitID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GomlaGomla_Price" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Sale_PriceAfterTax" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Gomla_PriceAfterTax" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="GomlaGomla_PriceAfterTax" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="TaxValue" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="ISunderTaxValue" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Pro_Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HaveExpireDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CoponValue" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Company_Name" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Effective_Name" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="BackColor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NewPath" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Printer_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NumDayGym" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HaveRicaby" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HaveStore" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PrintINBasicBranch" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HaveSize" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Buy_Price" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="HeadPro_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.AllCustomers" Method="AllCustomers">
+    <ElementType Name="AllCustomersResult">
+      <Column Name="مسلسل" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="[اسم العميل]" Member="اسم_العميل" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="[عنوان العميل]" Member="عنوان_العميل" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="[رقم التليفون]" Member="رقم_التليفون" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

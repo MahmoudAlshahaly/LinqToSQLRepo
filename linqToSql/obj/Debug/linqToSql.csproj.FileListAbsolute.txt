@@ -1,0 +1,7 @@
+C:\Users\Eng-Mahmoud Ahmed\Desktop\linqToSql\linqToSql\bin\Debug\linqToSql.exe.config
+C:\Users\Eng-Mahmoud Ahmed\Desktop\linqToSql\linqToSql\bin\Debug\linqToSql.exe
+C:\Users\Eng-Mahmoud Ahmed\Desktop\linqToSql\linqToSql\bin\Debug\linqToSql.pdb
+C:\Users\Eng-Mahmoud Ahmed\Desktop\linqToSql\linqToSql\obj\Debug\linqToSql.csproj.AssemblyReference.cache
+C:\Users\Eng-Mahmoud Ahmed\Desktop\linqToSql\linqToSql\obj\Debug\linqToSql.csproj.CoreCompileInputs.cache
+C:\Users\Eng-Mahmoud Ahmed\Desktop\linqToSql\linqToSql\obj\Debug\linqToSql.exe
+C:\Users\Eng-Mahmoud Ahmed\Desktop\linqToSql\linqToSql\obj\Debug\linqToSql.pdb
