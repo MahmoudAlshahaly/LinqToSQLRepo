@@ -15,8 +15,11 @@ namespace linqToSql
             //select
             using (DBSalesContextDataContext db = new DBSalesContextDataContext())
             {
+                //query syntax
                 var lst = from p in db.Products where p.Pro_ID > 3 orderby p.Pro_ID select p;
-                db.Products.Where(a => a.Pro_ID > 3).OrderByDescending(a => a.Pro_ID).ToList();
+                
+                //nonquery syntax (method synatx)
+                //var lst =  db.Products.Where(a => a.Pro_ID > 3).OrderByDescending(a => a.Pro_ID).ToList();
 
                 Console.WriteLine(db.GetCommand(lst).CommandText);
                 foreach (var item in lst)
